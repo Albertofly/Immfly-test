@@ -18,7 +18,7 @@ class HomePage:
         self.fist_item_product_name = page.locator("#layer-product-list div").filter(has_text="Aperol Spritz").nth(1)
         self.last_item_product_name = page.locator("#layer-product-list div").filter(has_text="Wolfys Creamy").nth(1)
 
-        self.first_item_price = page.locator("#layer-product-list div").filter(has_text="Scrapples Apple & Mango").nth(
+        self.first_item_price = page.locator("#layer-product-list div").filter(has_text="Scrapples Apple").nth(
         1)
         self.fist_item_price_amount = page.get_by_text("£0.95 / 140 AVIOS")
         self.last_item_price = page.locator("#layer-product-list div").filter(has_text="Pannier Brut NV Champagne").nth(
