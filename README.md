@@ -1,6 +1,6 @@
 # Immfly-test
 
-**We would love to see your Selenium and Python skills in action. Can you automate the case to detect if the products are ordered correctly by name or by price?	**
+**We would love to see your Selenium and Python skills in action. Can you automate the case to detect if the products are ordered correctly by name or by price?**
 
 
 The automated cases have been done using playwright and phyton.
@@ -13,7 +13,7 @@ The solution that I have found (and I know is not the most optimal one) is sorti
 
 **How to run the tests:**
 
-**From the pipeline ** - Go to Actions and run the last worflow "Test this workflow"
+**From the pipeline** - Go to Actions and run the last worflow "Test this workflow"
 ![Screenshot 2024-07-07 at 14 17 28](https://github.com/Albertofly/Immfly-test/assets/174526111/00a6312e-df01-483c-939c-27959fb1820c)
 ![Screenshot 2024-07-07 at 14 18 10](https://github.com/Albertofly/Immfly-test/assets/174526111/9b0fd64b-e6de-45ad-91a1-453dd09899ab)
 
