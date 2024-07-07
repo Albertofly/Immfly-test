@@ -1,9 +1,6 @@
-
 class HomePage:
 
-
     def __init__(self, page):
-
         self.allow_all_cookies = page.get_by_role("button", name="ALLOW ALL")
 
         self.sort_item = page.get_by_role("img", name="sort")
@@ -19,8 +16,8 @@ class HomePage:
         self.last_item_product_name = page.locator("#layer-product-list div").filter(has_text="Wolfys Creamy").nth(1)
 
         self.first_item_price = page.locator("#layer-product-list div").filter(has_text="Scrapples Apple").nth(
-        1)
+            1)
         self.fist_item_price_amount = page.get_by_text("£0.95 / 140 AVIOS")
         self.last_item_price = page.locator("#layer-product-list div").filter(has_text="Pannier Brut NV Champagne").nth(
-        1)
+            1)
         self.last_item_price_amount = page.get_by_text("£17.00 / 2430 AVIOS").first
