@@ -19,11 +19,18 @@ The solution that I have found (and I know is not the most optimal one) is sorti
 
 **Locally** - Clone the project (make sure you have all the dependencies and IDE)
 **Different modes of running the tests:**
-**run the tests**- pytest
-**run the tests opening browser (configured only for chrome)**- pytest --headed
-**run the tests only for acceptance criteria**- pytest -m acceptance_tests
-**run the tests parallel mode**- pytest -n6
-**run the tests generating an html report**- pytest --template=html1/index.html --report=acceptance_test_report.html
+
+- **run the tests**- pytest
+
+- **run the tests opening browser (configured only for chrome)**- pytest --headed
+
+- **run the tests only for acceptance criteria**- pytest -m acceptance_tests
+
+- **run the tests parallel mode**- pytest -n6
+
+- **run the tests generating an html report**- pytest --template=html1/index.html --report=acceptance_test_report.html
+
 ![Screenshot 2024-07-07 at 14 19 30](https://github.com/Albertofly/Immfly-test/assets/174526111/2353b3cd-0da3-4022-844d-fa8677bbcf78)
+
 ![Screenshot 2024-07-07 at 14 19 53](https://github.com/Albertofly/Immfly-test/assets/174526111/62f5a7b8-a0f4-45bc-88b9-0feb6449eadc)
 
